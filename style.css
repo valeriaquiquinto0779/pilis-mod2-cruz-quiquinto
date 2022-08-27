@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Reset */
+* { 
+    box-sizing: border-box;
+  }
+ 
+#paleta {
+    color: #009486;
+    color: #a0e8af;
+    color: #86baa1;
+    color: #edead0;
+    color: #F3B828;
+    color:#FFFFFF;
+    color:#E7E7E7;
+}  
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* GENERAL */  
+html, body {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    background: #E7E7E7;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVBAR */
+
+#navbar {
+    background: #F3B828E2;
+    color: #ffffff;
+}
+
+#navbar a {
+    color: #FFFFFF;
+}
+
+#navbar .logo-img a img{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right; /* hacia la derecha */
+}
+
+#navbar ul {
+    list-style: none; /* quitar viñetas */
+    float: left; /* hacia la izquierda */
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+
+#navbar ul li {
+    float: left; /* hacia la izquierda */
+}
+
+#navbar ul li a {
+    background: #009486;
+    border: 2px solid #ffffff;
+    margin-right: 5px;
+    display: block; /* ocupa el 100% de la caja */
+    padding: 12px; /* margen interno hacia todos lados */
+    text-align: center; 
+}
+
+#navbar ul li a:hover {
+    background: #FFFFFF;
+    color: #009486;
+}
+
+#navbar .emprender-img {
+    float: left;
+}
+
+#navbar .emprender-img img {
+    width: 120px;
+    height: 150px;
+    border-bottom: 5px solid #F3B828;
+    margin-left: 20px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+/* HOME */
+
+#home {
+    background: #009486E2;
+    color: #ffffff;
+    padding: 0 5px 0 15px;
+    /* padding: 20px 0; */
+}
+
+.home-img {
+    background: #FFFFFF;
+    float: right; /* hacia la derecha */
+    width: 50%; /* ancho */
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding:1px;
+}
+  
+.home-img img {
+    width: 90%; /* ancho */
+    margin: 28px;
+}
+  
+.home-text {
+    background: #FFFFFF;
+    float: left; /* hacia la izquierda */
+    padding: 25px 20px 35px;
+    width: 50%; /* ancho */
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.home-text h1{
+    background: #FFFFFF;
+    box-shadow: inset 0 0 15px 10px #F3B828;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.home-text .title-one {
+    text-transform: uppercase; /* mayuscula */
+    font-size: 34px;
+    font-weight: 900; 
+    color:#009486;
+    text-shadow: #00948641 0.1em 0.1em 0.2em
+}
+
+.home-text h2{
+    background: #FFFFFF;
+    box-shadow: inset 0 0 15px 10px #E7E7E7;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.home-text .title-two {
+    color: #F3B828;
+    font-size: 27px;
+    font-weight: 500; /* 400 – Normal. 500 – Medium. 600 – Semi Bold (Demi Bold) 700 – Bold */ 
+}
+
+.home-text .cuadro-calendario{
+    color: #009486;
+    width: 80%;
+    height: 113px;
+    border: 5px solid #009486;
+    border-radius: 10px;
+    box-shadow: inset -10px -10px #009486;
+    margin-left: 10%;
+}
+
+.cuadro-calendario .calendario-text{
+    margin-right: 30px;
+    padding: 0;
+    font-size: 20px;
+    float: right;
+}
+.cuadro-calendario .calendario-img{
+    margin: 1px;
+    padding: 1px;
+}
+
+.cuadro-calendario .calendario-img img{
+    width: 14%;
+    height: 14%;
+    padding-top: 15px;
+    margin-left: 15px;
+    float: left;
+}
+
+.container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 1300px;
+    overflow: auto;
+}
+
+/* EVENTO - EXPO */
+
+#expo {
+    background: #009486E2;
+    /* padding: 5px 10px 5px 15px; */
+    padding: 0 5px 0 15px;
+}
+
+.expo-text {
+    background: #FFFFFF;
+    width: 48%; /* ancho */
+    margin: 1% 0.8% 1% 0.2%;
+    padding: 5px 15px 40px 15px;
+    float: right;
+}
+
+.expo-text p{
+    color: #000000;
+    text-align: justify;
+    margin: 20px;
+}
+
+.expo-text h2{
+    background: #FFFFFF;
+    box-shadow: inset 0 0 15px 10px #E7E7E7;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.expo-text .subtitulo {
+    text-transform: uppercase; /* mayuscula */
+    color: #F3B828;
+    font-size: 27px;
+    font-weight: 700; /* 400 – Normal. 500 – Medium. 600 – Semi Bold (Demi Bold) 700 – Bold */ 
+}
+
+.expo-img {
+    background: #FFFFFF;
+    float: left; /* hacia la derecha */
+    width: 48%; /* ancho */
+    margin: 1% 0.2% 1% 0.8%;
+    padding: 10px 30px 10px;
+}
+
+.expo-img img {
+    width: 90%; /* ancho */
+    margin: 20px 5% 20px;
+}
+
+/* QUIENES SOMOS */
+
+#nosotros {
+    background: #009486E2;
+    padding: 0 5px 0 15px;
+}
+
+.nosotros-text {
+    background: #FFFFFF;
+    width: 48%; /* ancho */
+    float: left;
+    margin: 1% 0.2% 1% 0.8%;
+    padding: 115px 50px 115px;
+     /* hacia la izquierda */
+}
+
+.nosotros-text h2{
+    background: #FFFFFF;
+    box-shadow: inset 0 0 15px 10px #E7E7E7;
+    border-radius: 10px;
+    padding: 15px 140px 15px;
+}
+
+.nosotros-text .subtitulo {
+    color: #F3B828;
+    text-transform: uppercase; /* mayuscula */
+    font-weight: 700; /* grosor de la fuente */ 
+    font-size: 27px; /* tamaño de la fuente */
+    font-style: italic; 
+}
+
+.nosotros-text p{
+    color: #000000;
+    font-style: italic;
+    text-align: justify;
+    margin: 20px;
+}
+
+.nosotros-img {
+    background: #FFFFFF;
+    float: right; /* hacia la derecha */
+    width: 48%; /* ancho */
+    margin: 1% 0.8% 1% 0.2%;
+}
+  
+.nosotros-img img {
+    width: 90%; /* ancho */
+    margin: 20px 5% 20px;
+}
+
+/* REGISTRO */
+
+#registro {
+    background: #009486E2;
+    padding: 0 5px 0 15px;
+}
+  
+.registro-form {
+    background: #009486;
+    color: #009486;
+    float: right;
+    width: 48%;
+    margin: 1%;
+    padding: 1px 150px 15px;
+}
+
+.registro-form h2 {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 10px 0 10px;
+}
+
+.registro-form #formulario {
+    background: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+form .form-group {
+    margin-bottom: 1rem;
+}
+  
+form .form-control {
+    width: 100%;
+    padding: 0.375rem 0.7rem;
+    font-size: 1rem;
+    line-height: 1.3;
+    border: 2px solid #009486; 
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 14px 23px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.btn-light {
+    background: #F3B828;
+    border: 2px solid #F3B828;
+    color: #FFFFFF;
+    width: 100%;
+}
+  
+.btn-light:hover {
+    background: #FFFFFF;
+    border: 2px solid #F3B828;
+    color: #F3B828;
+    font-weight: bold;
+}
+
+.registro-title {
+    background:#009486;
+    float: left;
+    width: 48%;
+    margin: 1%;
+    padding: 80px 50px 80px;
+    text-align: center;
+}
+
+.registro-title .titulo-uno {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+/* CLIMA - API WEATHER MAP */
+
+.clima-ubicacion {
+    padding: 5px 20px 5px;
+    width: 55%; /* ancho */
+    float: left;
+}
+
+.clima-ubicacion .map {
+    width: 55%;
+    height: 350px;
+    margin: 5px 5px 5px 45%;
+}
+
+.clima-ubicacion h2{
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: inset 0 0 15px 10px #E7E7E7;
+    border-radius: 10px;
+    padding: 10px 24px 10px;
+}
+
+.clima-ubicacion .ubicacion{
+    text-transform: uppercase; /* mayuscula */
+    font-size: 27px;
+    font-weight: 900;
+    margin-left: 45%; 
+    color:#009486;
+    text-shadow: #00948641 0.1em 0.1em 0.2em
+}
+
+
+.clima-temp {
+    padding: 10% 0px 2px 0px;
+    width: 45%;
+    margin: auto;
+    float: right;
+}
+
+.clima-temp .clima-box {
+    background: #00948641;
+    color: white;
+    border-radius: 30px;
+    width: 55%;
+    padding: 50px 2px;
+}
+
+.clima-temp .clima-box:hover{
+    background: #009486A4;
+}
+
+h2.city {
+    text-align: center;
+}
+    
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+}
+  
+.description {
+    text-transform: capitalize;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.humidity {
+    margin-left: 32%;
+}
+
+.wind {
+    margin-left: 30%;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+}
+
+.weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+/* FOOTER - PIE DE PAGINA */
+
+footer {
+    background: #F3B828;
+    color: #ffffff;
+}
+
+.whatsapp-img {
+    width: 500px;
+    margin: 10px 0 10px 10px;
+}
+
+
+.wp-a a img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px 2px 18px;
+}
+
+.wp-text p{
+    padding-left: 20px;
+    margin-top: 1px;
+}
+
+.edep-img {
+    width: 180px;
+    float: right;
+    margin: -80px 0 20px 0;
+    padding: 0 10px 0 10px;
+}
+
+.edep-img img{
+    width: 150px;
+    align-items: center;
+}
+
+.incluit-img {
+    width: 180px;
+    float: right;
+    margin: -80px 180px 20px 0;
+    padding: 0 5px 0 10px;
+}
+
+.incluit-img img {
+    width: 150px;
+    height: 50px;
+}
+
+
